@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: repeating-linear-gradient(
+    to bottom,
+    #ADD8E6,
+    #ADD8E6 10px,
+    #FFFFFF 10px,
+    #FFFFFF 20px
+  );
+}
+
+#startButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
